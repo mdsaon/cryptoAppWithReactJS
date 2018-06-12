@@ -1,0 +1,28 @@
+.allItems{
+	    list-style-type: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+}
+.main-content input{
+		display: inline-flex;
+		width: 50%;
+    	padding: 12px 20px;
+    	margin: 8px 0;
+    	box-sizing: border-box;
+    	background-color: #3CBC8D;
+        color: white;
+
+}
+.main-content button{
+		display: inline-flex;
+		background-color: #4CAF50; /* Green */
+   		border: none;
+   	    color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin:2px;
+        font-family: verdana;
+}
